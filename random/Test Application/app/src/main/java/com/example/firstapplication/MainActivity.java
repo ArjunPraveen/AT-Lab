@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
             Toast.makeText(this, "Agree with terms and conditions", Toast.LENGTH_SHORT).show();
             return;
         }
-        String expression = "/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\\.[a-zA-Z0-9-]+)*$/";
+        //String expression = "/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\\.[a-zA-Z0-9-]+)*$/";
         if(!Patterns.EMAIL_ADDRESS.matcher(emailId).matches()){
             Toast.makeText(this, "Enter valid email id", Toast.LENGTH_SHORT).show();
             return;
